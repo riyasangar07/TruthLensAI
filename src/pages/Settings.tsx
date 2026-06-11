@@ -1,7 +1,7 @@
 import React from 'react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
-import { ThemeToggle } from '../components/ThemeToggle';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { Bell, Lock, Monitor, ShieldCheck, Mail, Smartphone } from 'lucide-react';
 import { toast } from 'sonner';
 

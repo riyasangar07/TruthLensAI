@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Input } from '../components/ui/input';
+import { Input } from '@/components/ui/input';
 import { Send, Bot, User, Loader2, RefreshCcw, Search, FileText, Zap, ShieldQuestion, Volume2, Mic, Copy, Check } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
+import { useAuth } from '@/context/AuthContext';
+import { db } from '@/lib/firebase';
 import { collection, addDoc, query, where, getDocs, orderBy, limit, writeBatch } from 'firebase/firestore';
 import { motion, AnimatePresence } from 'motion/react';
 import { toast } from 'sonner';

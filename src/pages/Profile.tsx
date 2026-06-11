@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
-import { Input } from '../components/ui/input';
-import { Label } from '../components/ui/label';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import { User, Loader2, Save, Mail, ShieldAlert } from 'lucide-react';
 import { updateProfile } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
-import { db, auth } from '../lib/firebase';
+import { db, auth } from '@/lib/firebase';
 import { toast } from 'sonner';
 
 export function Profile() {

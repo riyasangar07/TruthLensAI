@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '../components/ui/badge';
+import { Badge } from '@/components/ui/badge';
 import { Loader2, Globe, TrendingUp, Clock, AlertCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 

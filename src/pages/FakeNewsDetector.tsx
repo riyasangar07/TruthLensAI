@@ -1,14 +1,14 @@
 import React, { useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import { Textarea } from '../components/ui/textarea';
-import { Input } from '../components/ui/input';
-import { Label } from '../components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import { Loader2, Search, Link as LinkIcon, FileText, CheckCircle2, XCircle, AlertTriangle, ScanSearch, Image as ImageIcon, UploadCloud, Info, Database, Bot } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
+import { useAuth } from '@/context/AuthContext';
+import { db } from '@/lib/firebase';
 import { collection, addDoc } from 'firebase/firestore';
-import { Progress } from '../components/ui/progress';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../components/ui/tooltip';
+import { Progress } from '@/components/ui/progress';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { motion, AnimatePresence } from 'motion/react';
 import { toast } from 'sonner';
 

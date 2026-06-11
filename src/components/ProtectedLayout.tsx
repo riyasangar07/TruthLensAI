@@ -1,5 +1,5 @@
 import { Navigate, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '@/context/AuthContext';
 import { Loader2, ArrowLeft, Home } from 'lucide-react';
 import { Navbar } from './Navbar';
 import { Button } from '@/components/ui/button';

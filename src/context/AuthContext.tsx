@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { auth, db } from '../lib/firebase';
+import { auth, db } from '@/lib/firebase';
 import { toast } from 'sonner';
 import { 
   onAuthStateChanged, 

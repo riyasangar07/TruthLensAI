@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
+import { useAuth } from '@/context/AuthContext';
+import { db } from '@/lib/firebase';
 import { collection, getDocs, orderBy, query, limit } from 'firebase/firestore';
 import { ShieldAlert, Users, FileText, Bot, Activity, Loader2, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';

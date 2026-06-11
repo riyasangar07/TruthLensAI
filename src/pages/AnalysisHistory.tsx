@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
+import { useAuth } from '@/context/AuthContext';
+import { db } from '@/lib/firebase';
 import { collection, query, where, getDocs, orderBy, deleteDoc, doc } from 'firebase/firestore';
 import { Loader2, History, Search, Download, Trash2, Filter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '../components/ui/input';
+import { Input } from '@/components/ui/input';
 import { motion, AnimatePresence } from 'motion/react';
 import { toast } from 'sonner';
 
