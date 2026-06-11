@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { db } from '../lib/firebase';
 import { collection, query, where, getDocs, orderBy, deleteDoc, doc } from 'firebase/firestore';
 import { Loader2, FileText, Download, Trash2, ShieldCheck, Bookmark } from 'lucide-react';
-import { Button } from '../components/ui/button';
+import { Button } from '@/components/ui/button';
 import { motion } from 'motion/react';
 import { toast } from 'sonner';
 

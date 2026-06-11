@@ -2,7 +2,7 @@ import { Navigate, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Loader2, ArrowLeft, Home } from 'lucide-react';
 import { Navbar } from './Navbar';
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 
 export function ProtectedLayout() {
   const { user, loading } = useAuth();

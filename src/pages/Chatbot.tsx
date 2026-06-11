@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Button } from '../components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Input } from '../components/ui/input';
 import { Send, Bot, User, Loader2, RefreshCcw, Search, FileText, Zap, ShieldQuestion, Volume2, Mic, Copy, Check } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';

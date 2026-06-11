@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Button } from '../components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, ScanSearch, FileText, Globe, Bot, Image as ImageIcon, Database, Info, LayoutDashboard, Search, TrendingUp, Sparkles, Activity } from 'lucide-react';
 

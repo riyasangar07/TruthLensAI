@@ -4,7 +4,7 @@ import { db } from '../lib/firebase';
 import { collection, query, where, getDocs, orderBy, limit } from 'firebase/firestore';
 import { AlertTriangle, CheckCircle2, FileText, History, Loader2, PieChart, ShieldCheck, Search, Link as LinkIcon, Newspaper, TrendingUp } from 'lucide-react';
 import { Progress } from '../components/ui/progress';
-import { Button } from '../components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';

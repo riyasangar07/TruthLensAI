@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ShieldAlert, TrendingUp, Users, ExternalLink, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Button } from '../components/ui/button';
+import { Button } from '@/components/ui/button';
 
 export function TrendingFakeNews() {
   const [loading, setLoading] = useState(true);
